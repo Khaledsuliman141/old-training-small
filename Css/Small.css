@@ -1,0 +1,235 @@
+/*My rulz */
+body
+{
+    
+}
+
+.container
+{
+    width: 1170px;
+    margin: auto
+}
+
+/*Start header */
+
+header
+{
+    background-image: url(../Images/A.jpg);
+    background-size: cover;
+    height: 820px
+}
+
+header nav
+{
+    background-color: #515151;
+    height: 60px
+}
+
+header nav p
+{
+    float: left;
+    color: #f9641f;
+    font-size: 20px;
+    font-family: Impact, Charcoal, sans-serif
+}
+
+header nav ul
+{
+    float: right;
+    list-style: none
+}
+
+header nav ul li
+{
+    float: left;
+    color: #fff;
+    margin-left: 40px
+}
+
+.nav-link {display: inline-block} /* Google chrome problem Solved */
+
+
+header nav ul li:hover
+{ 
+    color: #f9641f
+}
+
+header .container h1
+{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 120px;
+    color: #fff
+}
+
+header .container div
+{
+    display: inline
+}
+
+
+header .container .one
+{
+    margin-left: 120px
+}
+
+header .container .two
+{
+    margin-left: -60px
+}
+
+header .container .three
+{
+    margin-left: -60px
+}
+
+header .container .four
+{
+    margin-left: -60px
+}
+
+header .container div img
+{
+    width: 260px;
+    height: 260px;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    box-shadow: -10px 0 5px #1e1e1e;
+    position: relative;
+    cursor: pointer
+}
+
+header .container div img:hover
+{
+    z-index: 5
+}
+/*End header */
+
+/*Start 1st s*/
+
+.first
+{
+    height: 300px
+}
+
+.first .container h2
+{
+    color: #f9641f;
+    padding-top: 50px
+}
+
+/*End 1st s*/
+
+/*Start 2nd s*/
+
+.second .container p
+{
+    background-color: #f9641f;
+    color: #fff;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px
+}
+
+.second .container div
+{
+    float: left;
+    width: 22%;
+    margin: 1.5%
+}
+
+.second .container div img
+{
+    width: 250px;
+    height: 260px;
+    margin-bottom: 40px;
+    border: 6px solid #fff;
+    box-shadow: 5px 5px 5px #969696,-1px -1px 5px #969696;
+    cursor: pointer
+}
+
+.second .container div a
+{
+    color: #f9641f;
+    text-decoration: none;
+    padding-left: 10px
+}
+
+.second .container div a:hover
+{
+    color: #f9271f
+}
+
+.second .container div p
+{
+    background:none;
+    color: #000;
+    margin-bottom: 140px
+}
+/*End 2nd s*/
+
+/*Start 3rd s */
+
+.third
+{
+    background-color: #f9641f;
+    color: #fff;
+    height: 300px;
+    margin-top: 650px
+}
+
+.third .container h2
+{
+    text-align: center;
+    padding-top: 50px
+}
+
+.third .container form
+{
+    text-align: center
+}
+
+.third .container form input
+{
+    height: 50px;
+    margin: 40px 4px 0 4px;
+    padding: 5px;
+    background: none;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px
+}
+
+.third .container form .text
+{
+    width: 260px
+}
+
+.third .container form .button
+{
+    width: 80px;
+    cursor: pointer
+}
+
+.third .container form .button:hover
+{
+    background-color: #f9271f;
+    color: #000
+}
+/*End 3rd s */
+
+/*Start footer */
+footer
+{
+    background-color: #020202;
+    height: 60px;
+    margin-top: -25px;
+    color: #fff
+}
+
+footer p
+{
+    text-align: center;
+    padding: 10px
+}
+/*End footer */
